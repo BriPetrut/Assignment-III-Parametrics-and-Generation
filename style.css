@@ -1,0 +1,70 @@
+/*HTML iframe code base https://www.w3schools.com/html/html_iframe.asp*/
+/*Sourced code for responsive grid: https://codepen.io/travishorn/pen/RdPLwj*/
+
+html { 
+    font-size: 22px; 
+}
+
+body { 
+    padding: 8%; 
+}
+
+.card {
+  background-color: rgba(30, 143, 255, 0);
+  color: rgb(0, 0, 0);
+  padding: 1rem;
+  height: auto;
+}
+
+.cards {
+  max-width: 100%;
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(1020px, 1fr));
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;   
+}
+
+#style {
+    color: rgb(224, 15, 15);
+    font-size: 100%; 
+}
+
+#interactive {
+    color: rgb(224, 15, 15);
+}
+
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 125%; 
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;   
+}
+
+#p2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    font-style: italic;
+    color: rgb(190, 190, 190);
+}
+
+
+
+/*
+
+<iframe src="Day 1/index.html" height="1020" width="1020" title="day 1"></iframe>
+
+*/
